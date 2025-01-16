@@ -5,8 +5,12 @@
     "autoCreateDB": true,
     "allowInbox": true,
     "autoClean": false,
-    "adminOnly": false,
+    "antiInbox": false,
     "keyAdminOnly": "",
+    "adminOnly": {
+    "enable": true,
+    "ignoreCommand": []
+  },
     "commandDisabled": [
         "",
         ""
